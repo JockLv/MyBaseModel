@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:clickable="false">
+
+    <TextView
+        android:paddingTop="100dp"
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="规范停车了吗？"/>
+    <TextView
+        android:layout_below ="@id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="请确认已经到达指定还车网点，并停放在指定车位"/>
+    <ImageView
+        android:id="@+id/iv_first_rect"
+        android:layout_width="200dp"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/icon_seat"/>
+    <ImageView
+        android:id="@+id/iv_first_car"
+        android:layout_gravity="center"
+        android:layout_width="147dp"
+        android:layout_height="357dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/icon_car"/>
+
+</RelativeLayout>

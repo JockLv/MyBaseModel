@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="SecondActivityTheme" parent="AppTheme">
+        <!-- 进场（Activity进入时）动画 -->
+        <item name="android:windowEnterTransition">@transition/transition_explode</item>
+        <!-- 出场（Activity退出时）动画，其实是错误的，下面会改正 -->
+        <item name="android:windowReturnTransition">@transition/transition_fade</item>
+    </style>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.mybasemodel.MainActivity">
+
+   <Button
+       android:id="@+id/btn_login"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:visibility="gone"
+       android:text="登录"/>
+
+   <Button
+       android:id="@+id/btn_login_string"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:visibility="gone"
+       android:text="登录1"/>
+
+   <Button
+       android:id="@+id/btn_jump"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="还车流程"/>
+
+   <Button
+       android:id="@+id/btn_car_control"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="车辆控制"/>
+
+   <Button
+       android:id="@+id/btn_notify"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="通知栏权限"/>
+
+   <Button
+       android:id="@+id/btn_activity_options"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="转场动画"/>
+
+   <Button
+       android:id="@+id/btn_activity_default"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="定义转场动画"/>
+
+</LinearLayout>
